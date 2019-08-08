@@ -1,10 +1,10 @@
 # LIRI Node App
 
-##Description
+## Description
 
 This Node-based application takes commands and parameters and queries various APIs to return a response. It can retrieve information about upcoming concerts, specified songs, and films.
 
-###Before Using
+### Before Using
 
 First, install the required node packages using "npm install".
 
@@ -25,7 +25,7 @@ As this app uses the dotenv package to store its Spotify API keys, you will need
 SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
 
-##Using the App
+## Using the App
 
 The app takes requests in the form of:
 
@@ -33,13 +33,13 @@ The app takes requests in the form of:
 
 where the command is one of the following:
 
-####concert-this
+#### concert-this
 
 This command will return the next five concerts scheduled to be performed by the specified band or artist, sorted by most recent. It will also return the location and date.
 
 ![LIRI returning information regarding The Lumineers' upcoming concerts](images/concert-this.png)
 
-####spotify-this-song
+#### spotify-this-song
 
 This command returns information about a specified music track, including the artist, the album the song is from, and a link to a preview, if available.
 
@@ -49,7 +49,7 @@ If no song is specified, its response will default to "The Sign" by Ace of Base.
 
 ![Default response to the spotify-this-song command](images/spotify_blank.png)
 
-####movie-this
+#### movie-this
 
 This command returns information about the specified movie, including the year it was released, its iMDB and Rotten Tomatoes ratings, country of production, language, and actors.
 
@@ -59,7 +59,7 @@ If no movie is specified, its response will default to "Mr. Nobody".
 
 ![Default response to the movie-this command](images/movie_blank.png)
 
-####do-what-it-says
+#### do-what-it-says
 
 This command requires no second argument, and instead retrieves its arguments from the "random.txt" file in the directory. By default, this is set to run the spotify-this-song command on the song "I Want It That Way".
 
@@ -75,14 +75,14 @@ However, this can be changed to anything the user might want, as demonstrated be
 ![do-what-it-says returning a different response after having changed the search arguments](images/do_adjusted.png)
 
 
-###Node Modules Used
+### Node Modules Used
 
 *axios
 *dotenv
 *moment
 *node-spotify-api
 
-###Author
+### Author
 
 Colin Elving
 
