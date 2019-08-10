@@ -77,10 +77,10 @@ However, this can be changed to anything the user might want, as demonstrated be
 
 ### Node Modules Used
 
-*axios
-*dotenv
-*moment
-*node-spotify-api
+* axios
+* dotenv
+* moment
+* node-spotify-api
 
 ### Author
 
